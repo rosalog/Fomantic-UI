@@ -565,7 +565,6 @@
                         $container.on('mousedown' + eventNamespace, module.event.mousedown);
                         $container.on('touchstart' + eventNamespace, module.event.mousedown);
                         $container.on('mouseup' + eventNamespace, module.event.mouseup);
-                        $container.on('touchend' + eventNamespace, module.event.mouseup);
                         $container.on('mouseover' + eventNamespace, module.event.mouseover);
                         if ($input.length > 0) {
                             $input.on('input' + eventNamespace, module.event.inputChange);
